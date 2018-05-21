@@ -45,6 +45,7 @@ h2{
 
 #getList{
 	padding: 10px 20px;
+	margin: 0 0 20px;
 	border: none;
 	border-radius: 3px;
 	background-color: #ff3f3f;
@@ -57,4 +58,10 @@ h2{
 
 #getList:hover{
 	background: #d13131;
+}
+
+div.item{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
 }
