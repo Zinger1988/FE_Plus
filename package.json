@@ -1,0 +1,14 @@
+{
+  "name": "fe_plus",
+  "version": "1.0.0",
+  "description": "Test task",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "sergeygonchar88@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-static": "0.7.10"
+  }
+}

@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+
+html,
+body
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font: .8125em/1.3 Arial, sans-serif;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.25em;
+}
+
+.task-description
+{
+	margin: 0 0 40px 0;
+	padding: 20px 0;
+
+	border-bottom: 1px solid #bebebe;
+}
+
+.task-description .inner
+{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.task-description .code{
+	font-size: 1.142em;
+}
+
+.task-body{
+	text-align: center;
+}
+
+#getList{
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	background-color: #ff3f3f;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0 2px 12px rgba(0,0,0,.35);
+	transition: background ease .2s;
+	min-width: 160px;
+}
+
+#getList:hover{
+	background: #d13131;
+}
